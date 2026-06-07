@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — SymptomSense</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.7;
+    }
+    header {
+      background: #2563eb;
+      color: #fff;
+      padding: 48px 24px 36px;
+      text-align: center;
+    }
+    header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.5px; }
+    header p { margin-top: 8px; font-size: 0.95rem; opacity: 0.85; }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    .notice {
+      background: #fef9c3;
+      border-left: 4px solid #eab308;
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin-bottom: 40px;
+      font-size: 0.9rem;
+      color: #713f12;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #2563eb;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    h3 { font-size: 1rem; font-weight: 600; margin-top: 20px; margin-bottom: 6px; color: #1e293b; }
+    p { margin-bottom: 12px; font-size: 0.95rem; color: #334155; }
+    ul { margin: 8px 0 14px 20px; }
+    li { font-size: 0.95rem; color: #334155; margin-bottom: 6px; }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight {
+      background: #eff6ff;
+      border-left: 4px solid #2563eb;
+      border-radius: 6px;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 0.9rem;
+      color: #1e40af;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 24px;
+      font-size: 0.9rem;
+    }
+    th {
+      background: #2563eb;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 600;
+    }
+    td { padding: 9px 14px; border-bottom: 1px solid #e2e8f0; color: #334155; vertical-align: top; }
+    tr:nth-child(even) td { background: #f8fafc; }
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.85rem;
+      color: #94a3b8;
+      border-top: 1px solid #e2e8f0;
+    }
+    footer a { color: #2563eb; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SymptomSense</h1>
+  <p>Privacy Policy &nbsp;·&nbsp; Last updated: June 2025</p>
+</header>
+
+<main>
+
+  <div class="notice">
+    <strong>Important:</strong> SymptomSense processes health data, which is classified as <strong>special category personal data</strong> under the UK GDPR and EU GDPR. We take this responsibility seriously and only process your data in the ways described below.
+  </div>
+
+  <!-- 1 -->
+  <h2>1. Who we are</h2>
+  <p>SymptomSense is a personal health tracking application. For the purposes of data protection law, the data controller is SymptomSense.</p>
+  <p><strong>Contact:</strong> <a href="mailto:mysymptomsense@gmail.com">mysymptomsense@gmail.com</a></p>
+
+  <!-- 2 -->
+  <h2>2. What data we collect</h2>
+  <p>We collect only the data you actively provide to us:</p>
+
+  <table>
+    <tr><th>Category</th><th>Examples</th><th>Purpose</th></tr>
+    <tr>
+      <td><strong>Account data</strong></td>
+      <td>Email address, password (hashed)</td>
+      <td>Authentication and account management</td>
+    </tr>
+    <tr>
+      <td><strong>Profile data</strong></td>
+      <td>Date of birth, gender</td>
+      <td>Personalising your experience</td>
+    </tr>
+    <tr>
+      <td><strong>Health data</strong></td>
+      <td>Conditions (e.g. asthma, endometriosis), medications, dosages, frequencies, daily symptom severity scores</td>
+      <td>Core app functionality — tracking and charting your health</td>
+    </tr>
+    <tr>
+      <td><strong>Usage data</strong></td>
+      <td>Log dates, medication log entries</td>
+      <td>Generating your charts and export reports</td>
+    </tr>
+  </table>
+
+  <p>We do <strong>not</strong> collect location data, contact lists, camera images, advertising identifiers, or any data beyond what you enter.</p>
+
+  <!-- 3 -->
+  <h2>3. Legal basis for processing</h2>
+  <p>We process your data under the following legal bases:</p>
+  <ul>
+    <li><strong>Explicit consent (Article 9(2)(a) UK/EU GDPR)</strong> — You give explicit consent to process your special category health data at the point of registration. You may withdraw this consent at any time by deleting your account.</li>
+    <li><strong>Contract (Article 6(1)(b))</strong> — Processing your account and profile data is necessary to provide the app service you have signed up for.</li>
+    <li><strong>Legitimate interests (Article 6(1)(f))</strong> — Maintaining security and preventing fraud.</li>
+  </ul>
+
+  <!-- 4 -->
+  <h2>4. How we use your data</h2>
+  <ul>
+    <li>Displaying your symptom trends and medication history within the app</li>
+    <li>Generating PDF, Excel, and chart exports that you choose to create</li>
+    <li>Sending account-related emails (email confirmation, password reset) via Supabase Auth</li>
+    <li>Securing your account with biometric authentication (processed entirely on your device — we never receive biometric data)</li>
+  </ul>
+  <p>We do <strong>not</strong> use your data for advertising, profiling, or any automated decision-making that produces legal or similarly significant effects.</p>
+
+  <!-- 5 -->
+  <h2>5. Who we share your data with</h2>
+  <p>We share your data with the following sub-processors only to the extent necessary to operate the app:</p>
+
+  <table>
+    <tr><th>Sub-processor</th><th>Role</th><th>Location</th></tr>
+    <tr>
+      <td><strong>Supabase, Inc.</strong></td>
+      <td>Database hosting, authentication, and secure storage. Your data is stored in their EU-West (Ireland) region.</td>
+      <td>USA (EU data centre)</td>
+    </tr>
+  </table>
+
+  <p>We do not sell, rent, or trade your personal data to any third party.</p>
+
+  <!-- 6 -->
+  <h2>6. Data retention</h2>
+  <p>We retain your data for as long as your account is active. If you delete your account:</p>
+  <ul>
+    <li>All personal data (profile, conditions, medications, symptom logs) is <strong>permanently deleted immediately</strong> via cascading database deletion.</li>
+    <li>Supabase authentication records are deleted within 30 days in accordance with their data retention policy.</li>
+    <li>Backups are purged within 30 days.</li>
+  </ul>
+
+  <!-- 7 -->
+  <h2>7. Your rights</h2>
+  <p>Under UK GDPR and EU GDPR you have the following rights:</p>
+
+  <table>
+    <tr><th>Right</th><th>How to exercise it</th></tr>
+    <tr>
+      <td><strong>Access</strong> — obtain a copy of your data</td>
+      <td>Settings → Account → Export My Data (instant PDF download)</td>
+    </tr>
+    <tr>
+      <td><strong>Portability</strong> — receive your data in a machine-readable format</td>
+      <td>Settings → Account → Export My Data (Excel export available)</td>
+    </tr>
+    <tr>
+      <td><strong>Erasure</strong> — have your data deleted ("right to be forgotten")</td>
+      <td>Settings → Account → Delete my account and all data</td>
+    </tr>
+    <tr>
+      <td><strong>Rectification</strong> — correct inaccurate data</td>
+      <td>Settings → Profile → Edit profile</td>
+    </tr>
+    <tr>
+      <td><strong>Withdraw consent</strong></td>
+      <td>Delete your account at any time</td>
+    </tr>
+    <tr>
+      <td><strong>Complaint</strong> — lodge a complaint with a supervisory authority</td>
+      <td>UK: <a href="https://ico.org.uk" target="_blank">ico.org.uk</a> &nbsp;·&nbsp; EU: your national DPA</td>
+    </tr>
+    <tr>
+      <td><strong>Any other request</strong></td>
+      <td>Email <a href="mailto:mysymptomsense@gmail.com">mysymptomsense@gmail.com</a> — we will respond within 30 days</td>
+    </tr>
+  </table>
+
+  <!-- 8 -->
+  <h2>8. Security</h2>
+  <ul>
+    <li>All data is encrypted in transit (TLS) and at rest (AES-256 via Supabase).</li>
+    <li>Row Level Security (RLS) is enforced on every database table — no user can access another user's data.</li>
+    <li>Authentication tokens are stored in your device's secure keychain (iOS Keychain / Android Keystore).</li>
+    <li>Optional biometric lock adds a device-level access control layer — biometric data never leaves your device.</li>
+    <li>Account deletion uses a server-side function with restricted permissions — it cannot be triggered by anyone other than the authenticated account owner.</li>
+  </ul>
+
+  <!-- 9 -->
+  <h2>9. Children</h2>
+  <p>SymptomSense is not intended for users under the age of 16. We do not knowingly collect data from anyone under 16. If you believe a person under 16 has provided us with their data, please contact us at <a href="mailto:mysymptomsense@gmail.com">mysymptomsense@gmail.com</a> and we will delete it promptly.</p>
+
+  <!-- 10 -->
+  <h2>10. International transfers</h2>
+  <p>Your data is stored in Supabase's EU-West (Ireland) data centre. If any transfer outside the UK or EEA is required, Supabase relies on Standard Contractual Clauses (SCCs) approved by the European Commission. You can review Supabase's data processing terms at <a href="https://supabase.com/privacy" target="_blank">supabase.com/privacy</a>.</p>
+
+  <!-- 11 -->
+  <h2>11. Changes to this policy</h2>
+  <p>We may update this policy from time to time. Where changes are material, we will notify you via the app or by email before they take effect. The "last updated" date at the top of this page always reflects the current version.</p>
+
+  <!-- 12 -->
+  <h2>12. Contact</h2>
+  <p>For any privacy-related questions or data requests:</p>
+  <div class="highlight">
+    <strong>SymptomSense</strong><br/>
+    Email: <a href="mailto:mysymptomsense@gmail.com">mysymptomsense@gmail.com</a><br/>
+    Response time: within 30 days
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2025 SymptomSense &nbsp;·&nbsp; <a href="terms.html">Terms of Service</a> &nbsp;·&nbsp; <a href="mailto:mysymptomsense@gmail.com">mysymptomsense@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
